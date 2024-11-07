@@ -21,6 +21,7 @@ const emptyEmoji: JsonEmoji = {
   name: 'blank emoji',
   v: '0',
   toneEnabled: false,
+  id: '', 
 }
 
 const ListFooterComponent = ({ categoryPosition }: { categoryPosition: CategoryPosition }) => (
