@@ -6,4 +6,5 @@ export const parseEmoji = (emoji: JsonEmoji) => ({
   unicode_version: emoji.v,
   slug: emoji?.name?.replace(/ /g, '_'),
   toneEnabled: emoji.toneEnabled,
+  id: emoji.id, 
 })
